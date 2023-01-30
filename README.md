@@ -10,3 +10,16 @@ Files and uses
  - MessageGen\MessageGen.py - used to read in a script file and then depending on the stlye that is to be used passes those values to that class
  - MessageGen\DiscordMessage.py - used to make a fake discord style message screenshot
  
+Overall Use
+ - Change script.txt or make a new .txt file that follows the same format
+ - Add profile images to the folder profile_img and add username and the filepath for the image to profile_img\profpic_dict.json
+ - Run MessageGen.py with python3 .\MessageGen.py
+ - Select the script file when promted
+ - See images in the new folder called test
+ - Delete the test folder to run again without getting the images confused
+
+Users can run ScriptGen.py instead of following step 2 of the Overall Use for a more guided experience
+
+Currently Implementing
+Creating a clean frontend so that users can simply follow a GUI that promts them through the steps defined in Overall Use as the use is fairly clunky right now.
+Users can run ScriptGen.py instead of following step 2 of the Overall Use, however I want the whole thing to work more intuitively
