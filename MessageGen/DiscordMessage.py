@@ -27,8 +27,8 @@ def generate_discord_message(user, messages, time):
 
     # use the profile pic dictionary to find the correct pfp
     
-    # with open('profile_img/profpic_dict.json') as file:
-    with open('image_names.json') as file:
+    with open('profile_img/profpic_dict.json') as file:
+    # with open('profpic_dict.json') as file:
         profpic_dict = json.loads(file.read())
 
     # add profile picture
@@ -124,6 +124,6 @@ def save_message(img, filename, folder):
     img.save(os.path.join(folder, f'discord_message_{num_files}_{filename}.png'))
 
 #Sample messages
-generate_discord_message('amogus', ['Hello World!'], datetime.datetime.now())
-generate_discord_message('discblue', ['This is a sample Discord message'], datetime.datetime.now())
-generate_discord_message('discred', ['Generated using PIL and Python', 'awagga', 'beep boop beep 🤓'], datetime.datetime.now())
+# generate_discord_message('amogus', ['Hello World!'], datetime.datetime.now())
+# generate_discord_message('discblue', ['This is a sample Discord message'], datetime.datetime.now())
+# generate_discord_message('discred', ['Generated using PIL and Python', 'awagga', 'beep boop beep 🤓'], datetime.datetime.now())

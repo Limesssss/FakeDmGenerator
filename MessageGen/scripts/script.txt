@@ -1,4 +1,5 @@
 Time: 60
+#time in seconds can be changed
 User: Red
 Messages: Hi how are you?
 
@@ -6,6 +7,6 @@ User: DiscRed
 Messages: I'm good how are you?
 
 User: DiscBlue
-Messages: Thats crazy fr hoe
+Messages: Thats crazy fr
 Messages: But 
 Messages: Show me one person who asked? 🤓
