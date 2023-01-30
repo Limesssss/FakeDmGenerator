@@ -21,5 +21,5 @@ Overall Use
 Users can run ScriptGen.py instead of following step 2 of the Overall Use for a more guided experience
 
 Currently Implementing
-Creating a clean frontend so that users can simply follow a GUI that promts them through the steps defined in Overall Use as the use is fairly clunky right now.
-Users can run ScriptGen.py instead of following step 2 of the Overall Use, however I want the whole thing to work more intuitively
+ - Creating a clean frontend so that users can simply follow a GUI that promts them through the steps defined in Overall Use as the use is fairly clunky right now.
+ - Users can run ScriptGen.py instead of following step 2 of the Overall Use, however I want the whole thing to work more intuitively
